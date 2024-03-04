@@ -1,0 +1,202 @@
+* {
+    background-color: orangered;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto {
+    border: none;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: black ;}
+    .texto:focus{
+        outline: none;
+    }
+
+.mensagem {
+    background: #ff6700;
+    background-image: url("");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-cripto {
+    border: 1px solid black;
+    border-radius: 24px;
+    color: beige;
+    cursor: grabbing;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-descripto {
+    border: 1px solid black;
+    border-radius: 24px;
+    color: beige;
+    cursor: grabbing;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid black;
+    border-radius: 24px;
+    color: beige;
+    cursor: grabbing;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacoes {
+    color: black;
+    font-size: 18px;
+}
+
+
+/* img {
+    padding: 24px;
+    color: orangered;
+    background-color: orangered;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#container {
+    margin: 48px;
+    width: 680px;
+    height: 680px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.caixa {
+    padding-left: 16px;
+    padding-top: 102px;
+    margin: 16px;
+    width: 400px;
+    height: 944px;
+    border: 2px dotted rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding-top: 12px;
+    padding-left: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tela {
+    padding-top: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mensagem {
+    margin: 8px;
+    padding-left: 16px;
+    padding-top: 46px ;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 80%;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    padding-left: 68px;
+    padding-top: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cripto {
+    display: flex;
+    border: 24px solid black;
+    color: beige;
+    background-color: black;
+    border-radius: 16px;
+    width: 240px;
+    height: 2px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.descripto {
+    display: flex;
+    border: 24px solid black;
+    color: beige;
+    background-color: black;
+    border-radius: 16px;
+    width: 240px;
+    height: 2px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: grabbing;
+    background-color: blue;
+    border-color: blue;
+    transition: 0.4s ease-in-out;
+} */
